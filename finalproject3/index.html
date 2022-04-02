@@ -1,0 +1,811 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bfc1f33403.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <title>final projects</title>
+</head>
+
+<body>
+
+
+    <header>
+        <nav class="autohide navbar navbar-expand-lg navbar-dark ">
+            <div class="container-fluid">
+                <img src="images/quote.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                <a class="navbar-brand" href="/"><strong>PogrammingKhata</strong></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 170px;">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/"><strong>Home</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#about"><strong>About</strong></a>
+                        </li>
+                        <li class="nav-item dropdown has-megamenu">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                data-bs-toggle="dropdown"><strong>Services</strong></a>
+                            <div class="dropdown-menu megamenu fade-up" role="menu" style="width: 100%;">
+                                <div class="row g-3 ml-4 dropstyle">
+                                    <div class="col-lg-3 col-6">
+                                        <div class="col-megamenu">
+                                            <h6 class="title"><strong>Web Design Services</strong></h6>
+                                            <ul class="list-unstyled ">
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                            </ul>
+                                        </div> <!-- col-megamenu.// -->
+                                    </div><!-- end col-3 -->
+                                    <div class="col-lg-3 col-6">
+                                        <div class="col-megamenu">
+                                            <h6 class="title"><strong>Android Services</strong></h6>
+                                            <ul class="list-unstyled ">
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                            </ul>
+                                        </div> <!-- col-megamenu.// -->
+                                    </div><!-- end col-3 -->
+                                    <div class="col-lg-3 col-6">
+                                        <div class="col-megamenu">
+                                            <h6 class="title"><strong>Business Website</strong></h6>
+                                            <ul class="list-unstyled ">
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                            </ul>
+                                        </div> <!-- col-megamenu.// -->
+                                    </div>
+                                    <div class="col-lg-3 col-6">
+                                        <div class="col-megamenu">
+                                            <h6 class="title"><strong>Blog Templates</strong></h6>
+                                            <ul class="list-unstyled ">
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                                <li><a href="#"><strong>Services</strong></a></li>
+                                            </ul>
+                                        </div> <!-- col-megamenu.// -->
+                                    </div><!-- end col-3 -->
+                                </div><!-- end row -->
+                            </div> <!-- dropdown-mega-menu.// -->
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="#prcing"><strong>Pricing</strong></a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html"><strong>Contact Us</strong></a>
+                        </li>
+
+                    </ul>
+
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <a class="btn btn-outline-primary ms-3" type="submit"  href="login&signup.html">Login</a>
+                    </form>
+                </div> <!-- navbar-collapse.// -->
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/i1.jpg" class="bd-placeholder-img" width="100%" height="500px"
+                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="95%" height="500px" fill="#777"></rect></img>
+
+                        <div class="container">
+                            <div class="carousel-caption text-start">
+                                <h1>Example headline.</h1>
+                                <p>Some representative placeholder content for the first slide of the carousel.</p>
+                                <p><a class="btn btn-lg btn-primary" href="login&signup.html">Sign up today</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/i1.jpg" class="bd-placeholder-img" width="100%" height="500px"
+                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="95%" height="500px" fill="#777"></rect></img>
+
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>Another example headline.</h1>
+                                <p>Some representative placeholder content for the second slide of the carousel.</p>
+                                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/i1.jpg" class="bd-placeholder-img" width="100%" height="500px"
+                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="95%" height="500px" fill="#777"></rect></img>
+
+                        <div class="container">
+                            <div class="carousel-caption text-end">
+                                <h1>One more for good measure.</h1>
+                                <p>Some representative placeholder content for the third slide of this carousel.</p>
+                                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="heading ">
+                <h1>About Our <span class="span"> Company </span></h1>
+                <div class="line"></div>
+                <p>Accept payments from customers. Automate payouts to vendors & employees. Never run out of working capital.</p>
+            </div>
+            
+            <div class="section-one">
+                <div class="container col-xxl-8 px-4 py-5">
+                    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                      <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="images/aboutimg.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                      </div>
+                      <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
+                        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="heading ">
+                <h1>Power your <span class="span"> finance grow </span></h1>
+                <div class="line"></div>
+                <p>Accept payments from customers. Automate payouts to vendors & employees. Never run out of working capital.</p>
+            </div>
+            
+            <div class="section-two">
+                <div class="s2container">
+                    <div class="s2card">
+                        <div class="imgBx">
+                            <img src="images/design.png" alt="">
+                        </div>
+                        <div class="s2content">
+                            <div class="">
+                                <h3>Design</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam obcaecati, deserunt
+                                    inventore molestiae voluptatum aut?</p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s2card">
+                        <div class="imgBx">
+                            <img src="images/data.png" alt="">
+                        </div>
+                        <div class="s2content">
+                            <div class="">
+                                <h3>Coding</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam obcaecati, deserunt
+                                    inventore molestiae voluptatum aut?</p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s2card">
+                        <div class="imgBx">
+                            <img src="images/startup.png" alt="">
+                        </div>
+                        <div class="s2content">
+                            <div class="">
+                                <h3>StartUp</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam obcaecati, deserunt
+                                    inventore molestiae voluptatum aut?</p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s2card">
+                        <div class="imgBx">
+                            <img src="images/earning.png" alt="">
+                        </div>
+                        <div class="s2content">
+                            <div class="">
+                                <h3>Earnings</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam obcaecati, deserunt
+                                    inventore molestiae voluptatum aut?</p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="section-three">
+            <div class="heading">
+                <h1>Why Choose <span class="span">our Company</span></h1>
+                <div class="line"></div>
+                <p>we also provide Mobile Apps Design and Development, Website Designing & Development, Logo Design, Brochure Design, Responsive Web Design. We have a team of expert professionals who work dedicatedly day and night in order to design responsive and navigational business websites for you. We understand the importance of business websites in this competitive world and hence we are here to cater to all your needs.</p>
+            </div>
+            <div class="container mb-5">
+                <div class="row align-items-center">
+                    <div class="col-md-4 mt-5">
+                        <div class="s3main-card py-4">
+                            <div class="layer"></div>
+                            <div class="card">
+                                <div class="round">
+                                    <p class="p">1</p>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title pt-3 text-center">MORE FASTER</h5>
+                                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                                        ever since the 1500s.</p>
+                                    <i class="fas fa-rocket svg-icon red fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-5">
+                        <div class="s3main-card py-4">
+                            <div class="layer2"></div>
+                            <div class="card">
+                                <div class="round1">
+                                    <p class="p">2</p>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title pt-3 text-center">100% SECURE</h5>
+                                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                                        ever since the 1500s.</p>
+                                    <i class="fas fa-lock svg-icon green fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-5">
+                        <div class="s3main-card py-4">
+                            <div class="layer3"></div>
+                            <div class="card">
+                                <div class="round2">
+                                    <p class="p">3</p>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title pt-3 text-center">VERY EASIER</h5>
+                                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                                        ever since the 1500s.</p>
+                                    <i class="fas fa-user-check svg-icon pink fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mt-5">
+                        <div class="s3main-card py-4">
+                            <div class="layer4"></div>
+                            <div class="card">
+                                <div class="round3">
+                                    <p class="p">4</p>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title pt-3 text-center">100% TRUST</h5>
+                                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                                        ever since the 1500s.</p>
+                                    <i class="fas fa-lock svg-icon green fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mt-5">
+                        <div class="s3main-card py-4">
+                            <div class="layer5"></div>
+                            <div class="card">
+                                <div class="round4">
+                                    <p class="p">5</p>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title pt-3 text-center">FAST DELEVARY</h5>
+                                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                                        ever since the 1500s.</p>
+                                    <i class="fas fa-user-check svg-icon pink fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mt-5">
+                        <div class="s3main-card py-4">
+                            <div class="layer6"></div>
+                            <div class="card">
+                                <div class="round5">
+                                    <p class="p">6</p>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title pt-3 text-center">GOOD PRODUCTS</h5>
+                                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                                        ever since the 1500s.</p>
+                                    <i class="fas fa-rocket svg-icon red fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="heading">
+                <h1>Dawnload our<span class="span"> software</span></h1>
+                <div class="line"></div>
+                <p>we also provide Mobile Apps Design and Development, Website Designing & Development, Logo Design, Brochure Design, Responsive Web Design..</p>
+            </div>
+            <div class="our-products">
+                <div class="product-container">
+                    <div class="opcard">
+                        <div class="face face1">
+                            <div class="content">
+                                <i class="fab fa-windows"></i>
+                                <h3>WINDOWS</h3>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <h4>64 bit Operating System REQUIRD</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis
+                                    doloribus. Omnis eos, debitis id itaque ad fugit fugiat quae!</p>
+                                <a href="#">Dawnload Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="opcard">
+                        <div class="face face1">
+                            <div class="content">
+                                <i class="fab fa-apple"></i>
+                                <h3>APPLE</h3>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <h4>APPLE PLAYSTORE AVAILABLE</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis
+                                    doloribus. Omnis eos, debitis id itaque ad fugit fugiat quae!</p>
+                                <a href="#">Dawnload Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="opcard">
+                        <div class="face face1">
+                            <div class="content">
+                                <i class="fab fa-android"></i>
+                                <h3>ANDROID</h3>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <h4>ANDROID PLAYSTORE AVAILABLE</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis
+                                    doloribus. Omnis eos, debitis id itaque ad fugit fugiat quae!</p>
+                                <a href="#">Dawnload Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="prcing">
+            <div class="heading">
+                <h1>our <span class="span">  pricing</span> </h1>
+                <div class="line"></div>
+                <p> We understand the importance of business websites in this competitive world and hence we are here to cater to all your needs.</p>
+            </div>
+            <div class="pricing-section">
+                <div class="pcontainer">
+                    <div class="pcard">
+                        <div class="pbox">
+                            <div class="pcontent">
+                                <h2>01</h2>
+                                <h3>FREE</h3>
+                                <p>
+                                    <h3>$0/mo</h3>
+                                    <li>10 user inclouded</li>
+                                    <li>2 GB Storage</li>
+                                    <li>Email support</li>
+                                    <li>Help center access</li>
+                                    <li>&#10060;100% sequrity</li>
+                                    
+                                </p>
+                                <a href="#">Signup Now for free</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pcard">
+                        <div class="pbox">
+                            <div class="pcontent">
+                                <h2>02</h2>
+                                <h3>STANDER</h3>
+                                <p>
+                                    <h3>$15/mo</h3>
+                                    <li>20 user inclouded</li>
+                                    <li>10 GB Storage</li>
+                                    <li>Priority Email support</li>
+                                    <li>Help center access</li>
+                                    <li>100% sequrity</li>
+                                    <li>5 Time Update</li>
+                                </p>
+                                <a href="#">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pcard">
+                        <div class="pbox">
+                            <div class="pcontent">
+                                <h2>03</h2>
+                                <h3>ENTERPRICE</h3>
+                                <p>
+                                    <h3>$65/mo</h3>
+                                    <li>50 user inclouded</li>
+                                    <li>100 GB Storage</li>
+                                    <li>Priority &#128242; &#128231;Support</li>
+                                    <li>Help center access</li>
+                                    <li>100% sequrity</li>
+                                    <li>life Time Update</li>
+                                </p>
+                                <a href="#">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="heading">
+                <h1>our <span class="span"> portfolio</span> </h1>
+                <div class="line"></div>
+                <p>Website design & development needs a professional hand so that your business website can reach the potential audience and you can become a leading business in your niche. We value our customers the most! For us, understanding what our customers want is of utmost importance.</p>
+            </div>
+            <div class="services-image">
+                <div class="prtcontainer ">
+                    <div class="pbox ">
+                        <div class="pimgBx">
+                            <img src="images/p1.PNG" width="250px" alt="">
+                        </div>
+                        <div class="pcontent">
+                            <div class="">
+                                <h2>Responsive NicePage</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores ad accusantium vel
+                                    perspiciatis doloribus vitae ullam sapiente nesciunt minus harum.</p>
+                                <a href="https://ranjushau.github.io/responsive-website-template/project8/index.html#"  target="__blanck">View Site</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="pbox">
+                        <div class="pimgBx">
+                            <img src="images/p2.PNG" width="250px" alt="">
+                        </div>
+                        <div class="pcontent">
+                            <div class="">
+                                <h2>FitNess Blog Template</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores ad accusantium vel
+                                    perspiciatis doloribus vitae ullam sapiente nesciunt minus harum.</p>
+                                <a href="https://ranjushau.github.io/fitnessblog-website/project9/index.html  target="__blanck"">View Site</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="pbox">
+                        <div class="pimgBx">
+                            <img src="images/p10.PNG" width="250px" alt="">
+                        </div>
+                        <div class="pcontent">
+                            <div class="">
+                                <h2>HEALHY FOOD RESTURENT</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores ad accusantium vel
+                                    perspiciatis doloribus vitae ullam sapiente nesciunt minus harum.</p>
+                                <a href="https://ranjushau.github.io/food-resturent/project26/index.html"  target="__blanck">View Site</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="pbox">
+                        <div class="pimgBx">
+                            <img src="images/p4.PNG" width="250px" alt="">
+                        </div>
+                        <div class="pcontent">
+                            <div class="">
+                                <h2>BOOTSTRAP WEBPAGES</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores ad accusantium vel
+                                    perspiciatis doloribus vitae ullam sapiente nesciunt minus harum.</p>
+                                <a href="https://ranjushau.github.io/testing-website/project14/index.html"  target="__blanck">View Site</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="pbox">
+                        <div class="pimgBx">
+                            <img src="images/p5.PNG" width="250px" alt="">
+                        </div>
+                        <div class="pcontent">
+                            <div class="">
+                                <h2>BUSINESS FLOWER HOUSE </h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores ad accusantium vel
+                                    perspiciatis doloribus vitae ullam sapiente nesciunt minus harum.</p>
+                                <a href="https://ranjushau.github.io/flower-house/project15/index.html"  target="__blanck">View Site</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="pbox">
+                        <div class="pimgBx">
+                            <img src="images/p6.PNG" width="250px" alt="">
+                        </div>
+                        <div class="pcontent">
+                            <div class="">
+                                <h2>LIMELIGHT RESPONSIVE PROJECT</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores ad accusantium vel
+                                    perspiciatis doloribus vitae ullam sapiente nesciunt minus harum.</p>
+                                <a href="https://ranjushau.github.io/limelight-design-example/project19/index.html"  target="__blanck">View Site</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="pbox">
+                        <div class="pimgBx">
+                            <img src="images/p7.PNG" width="250px" alt="">
+                        </div>
+                        <div class="pcontent">
+                            <div class="">
+                                <h2>PRALLALX EFFECT WEBSITE</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores ad accusantium vel
+                                    perspiciatis doloribus vitae ullam sapiente nesciunt minus harum.</p>
+                                <a href="https://ranjushau.github.io/Appo/project20/index.html"  target="__blanck">View Site</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="pbox">
+                        <div class="pimgBx">
+                            <img src="images/p8.PNG" width="250px" alt="">
+                        </div>
+                        <div class="pcontent">
+                            <div class="">
+                                <h2>PROJECT APPO WEBSITE</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores ad accusantium vel
+                                    perspiciatis doloribus vitae ullam sapiente nesciunt minus harum.</p>
+                                <a href="https://ranjushau.github.io/Appo/project20/index.html" target="__blanck">View Site</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- testmonials sect?ion -->
+        <section>
+            <div class="heading">
+                <h1>Client <span class="span"> Testimonial</span></h1>
+                <div class="line"></div>
+            </div>
+            <div class="testmonials">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonialBox">
+                                <img src="images/quote.png" class="quote" width="70px" alt="" />
+                                <div class="tmcontent">
+                                    <p>
+                                        If you’re any good at your job, you see these from time to time (if you don’t,
+                                        there are bigger problems you should fix before worrying about getting
+                                        testimonials). The key is to spot them, then slow down and make the most of
+                                        them.
+                                    </p>
+                                    <div class="tdetails">
+                                        <div class="timgBx">
+                                            <img src="images/testmnials1.PNG" alt="" />
+                                        </div>
+                                        <h3>
+                                            Ranju Shau <br /><span>CEO Developer & Designer</span>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonialBox">
+                                <img src="images/quote.png" class="quote" width="70px" alt="" />
+                                <div class="tmcontent">
+                                    <p>
+                                        If you’re any good at your job, you see these from time to time (if you don’t,
+                                        there are bigger problems you should fix before worrying about getting
+                                        testimonials). The key is to spot them, then slow down and make the most of
+                                        them.
+                                    </p>
+                                    <div class="tdetails">
+                                        <div class="timgBx">
+                                            <img src="images/testmials.PNG" alt="" />
+                                        </div>
+                                        <h3>
+                                            Ranju Shau <br /><span>Marketing Engineer</span>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <div class="testimonialBox">
+                                <img src="images/quote.png" class="quote" width="70px" alt="" />
+                                <div class="tmcontent">
+                                    <p>
+                                        If you’re any good at your job, you see these from time to time (if you don’t,
+                                        there are bigger problems you should fix before worrying about getting
+                                        testimonials). The key is to spot them, then slow down and make the most of
+                                        them.
+                                    </p>
+                                    <div class="tdetails">
+                                        <div class="timgBx">
+                                            <img src="images/testmnials2.PNG" alt="" />
+                                        </div>
+                                        <h3>
+                                            Ranju Shau<br /><span>Software Developer</span>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonialBox">
+                                <img src="images/quote.png" class="quote" width="70px" alt="" />
+                                <div class="tmcontent">
+                                    <p>
+                                        If you’re any good at your job, you see these from time to time (if you don’t,
+                                        there are bigger problems you should fix before worrying about getting
+                                        testimonials). The key is to spot them, then slow down and make the most of
+                                        them.
+                                    </p>
+                                    <div class="tdetails">
+                                        <div class="timgBx">
+                                            <img src="images/testmials.PNG" alt="" />
+                                        </div>
+                                        <h3>
+                                            Ranju Shau<br /><span>Software Developer</span>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <div class="footerbox">
+        <footer class="footer">
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="social-icon">
+                <li><a href="#">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a></li>
+                <li><a href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a></li>
+                <li><a href="#">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a></li>
+                <li><a href="#">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </a></li>
+                <li><a href="#">
+                        <ion-icon name="logo-reddit"></ion-icon>
+                    </a></li>
+                <!-- <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li> -->
+            </ul>
+
+            <ul class="menu">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">team</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+
+            <p class="copy">
+                Copyright &copy; <span><a href="#">  Programming Khata</a>  2022  All Right Reserved </span> |  Developer
+                <span><a href="#">  Ranju Shau</a></span>
+            </p>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
